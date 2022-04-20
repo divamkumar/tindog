@@ -2,11 +2,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    line-height: 1.5;
     font-weight: 900;
 }
 
@@ -14,7 +16,6 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: bold;
-    line-height: 1.5;
 }
 
 h3 {
@@ -112,6 +113,24 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;   
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
 }
 
 @media (max-width: 1028px) {
